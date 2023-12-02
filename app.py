@@ -21,7 +21,7 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 
-Model= load_model('model12345.h5')     
+Model= load_model('model.h5')     
 
 lesion_classes_dict = {
     0 : 'Melanocytic nevi',
