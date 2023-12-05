@@ -46,6 +46,7 @@ $(document).ready(function () {
                 $('.loader').hide();
                 $('#result').fadeIn(600);
                 $('#result').text(' Result:  ' + data);
+                // $('.skin-information').fadeIn(600);
                 console.log('Success!');
             },
         });
